@@ -1,0 +1,29 @@
+{
+  "name": "get-available-port",
+  "version": "1.0.0",
+  "description": "finds a random available port",
+  "main": "src/index.mjs",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --experimental-modules ./node_modules/.bin/section ./test/*.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/distributed-systems/get-available-port.git"
+  },
+  "keywords": [
+    "random",
+    "port"
+  ],
+  "author": "Lina van der Weg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/distributed-systems/get-available-port/issues"
+  },
+  "homepage": "https://github.com/distributed-systems/get-available-port#readme",
+  "devDependencies": {
+    "section-tests": "^2.1.1"
+  }
+}
